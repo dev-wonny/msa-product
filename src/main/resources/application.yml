@@ -2,7 +2,8 @@ spring:
   application:
     name: product-service
 server:
-  port: ${server.port}  # 환경 변수로부터 포트를 설정
+  port: 19093
+#  port: ${server.port}  # 환경 변수로부터 포트를 설정
 eureka:
   client:
     service-url:
