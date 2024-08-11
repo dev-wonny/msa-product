@@ -52,6 +52,11 @@ dependencies {
 	//temp DB
 	runtimeOnly 'org.hsqldb:hsqldb'
 
+	//redis
+	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+	implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.2'
+
+
 	//분산추적 zipkin
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'io.micrometer:micrometer-tracing-bridge-brave'

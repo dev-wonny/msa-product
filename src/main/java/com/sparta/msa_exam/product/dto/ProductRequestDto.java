@@ -4,6 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+/**
+ * json 요청시 들어오는 key라서 product라고 넣지 않음
+ */
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor

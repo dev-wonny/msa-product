@@ -29,8 +29,9 @@ public class Product {
 	private Long product_id;
 
 	private String name;
-	private String description;
 	private Integer supply_price;
+
+	private String description;
 	private Integer quantity;
 
 	private LocalDateTime createdAt;
